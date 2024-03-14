@@ -20,7 +20,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// 1) ROUTES
+// 2) ROUTES
 app.use("/api/v1/tours", tourRouter);
 app.use("/api/v1/users", userRouter);
 
